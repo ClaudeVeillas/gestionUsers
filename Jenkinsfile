@@ -1,7 +1,7 @@
 node {
 
 stage('SCM'){
- git 'https://github.com/ClaudeVeillas/gestionUsers'
+ git 'https://github.com/OussamaINTIV3/gestionUsers'
 }
 
 stage('Compile'){
