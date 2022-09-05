@@ -7,10 +7,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-
-
 
 
 
@@ -23,7 +19,6 @@ public class Utilisateur implements Serializable{
 	private Long id;
 	private String nom;
 	private String prenom;
-	@Temporal(TemporalType.DATE)
 	private Date date;
 	private Long age;
 	private long cin;
